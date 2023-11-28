@@ -1,0 +1,17 @@
+.hederSectionButtonBlock_burger {
+  display: inline-flex;
+  height: 39px;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+
+  border-radius: 500px;
+  background: #dcefd8;
+
+  transition: background-color 0.3s ease-in-out;
+}
+.hederSectionButtonBlock_burger:hover {
+  background: #97d28b;
+}

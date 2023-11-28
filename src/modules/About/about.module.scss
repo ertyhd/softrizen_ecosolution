@@ -1,0 +1,45 @@
+.aboutContainer {
+  margin-top: 120px;
+}
+.aboutContainer_description {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutContainer_description h2 {
+  width: 365px;
+  color: #173d33;
+  font-family: Oswald;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 100% */
+  text-transform: uppercase;
+}
+.aboutContainer_description p {
+  position: relative;
+  width: 459px;
+  color: #173d33;
+  text-align: justify;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+.aboutContainer_description p::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 1px;
+  height: 87px;
+  flex-shrink: 0;
+  left: -161px;
+  background: #97d28b;
+}
+.aboutContainer_grid {
+  margin-top: 124px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
