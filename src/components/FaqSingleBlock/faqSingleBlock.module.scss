@@ -1,0 +1,47 @@
+.fagSingleBlockWrapp {
+  width: 596px;
+  padding: 24px 0;
+
+  border-top: 1px solid #97d28b;
+  display: flex;
+  flex-direction: column;
+}
+.btnH3Wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.btnH3Wrap h3 {
+  color: #173d33;
+  text-align: justify;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.movingBlock {
+  width: 596px;
+  height: 100%;
+  padding-left: 52px;
+
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.9s ease-in-out;
+}
+
+.movingBlock.expanded {
+  max-height: 176px;
+}
+.movingBlock p {
+  padding-top: 24px;
+  color: #173d33;
+  text-align: justify;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}

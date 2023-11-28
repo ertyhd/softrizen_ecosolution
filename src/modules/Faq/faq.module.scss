@@ -1,0 +1,41 @@
+.fagSection {
+  margin-top: 120px;
+
+  display: flex;
+  justify-content: space-between;
+  min-height: 700px;
+}
+
+.fagSection_rightBlock {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  // height: 553px;
+}
+.fagSection_rightBlock h2 {
+  color: #173d33;
+  font-family: Oswald;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 100% */
+  text-transform: uppercase;
+}
+.fagSection_rightBlock_down {
+  text-align: center;
+}
+.fagSection_rightBlock_down p {
+  color: #173d33;
+  text-align: justify;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.fagSection_rightBlock_down a {
+  margin-top: 12px;
+}
