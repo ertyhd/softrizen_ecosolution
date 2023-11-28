@@ -1,15 +1,16 @@
 import styles from "./mainPage.module.scss";
 import Hero from "../../modules/Hero/Hero";
 import About from "../../modules/About/About";
-
-import AboutSingleCard from "../../components/AboutSingleCard/AboutSingleCard";
+import Electricity from "../../modules/Electricity/Electricity";
+import Cases from "../../modules/Cases/Cases";
 
 const MainPage = () => {
   return (
     <section className={styles.container}>
       <Hero />
       <About />
-      <AboutSingleCard />
+      <Electricity />
+      <Cases />
     </section>
   );
 };

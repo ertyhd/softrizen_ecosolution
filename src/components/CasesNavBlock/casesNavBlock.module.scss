@@ -1,0 +1,29 @@
+.buttonWrap {
+  display: flex;
+  gap: 24px;
+}
+.buttonWrap button {
+  display: inline-flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 100px;
+  border: 1px solid #173d33;
+
+  transition: border-color 0.3s ease-in-out;
+}
+.buttonWrap_svg {
+  stroke: #173d33;
+
+  transition: stroke 0.3s ease-in-out;
+}
+.buttonWrap button:hover {
+  border: 1px solid #97d28b;
+}
+.buttonWrap button:hover .buttonWrap_svg {
+  stroke: #97d28b;
+}
+.buttonWrap_r {
+  transform: rotate(180deg);
+}

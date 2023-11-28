@@ -421,6 +421,64 @@ export const SvgSelector = ({ color, id, styles, viewBox }) => {
           />
         </svg>
       );
+    case "arrowTR":
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
+          fill="none"
+        >
+          <path
+            className={styles}
+            d="M10.9976 6.98667L21.0125 6.98667L21.0125 17.0017"
+            // stroke="#173D33"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            className={styles}
+            d="M6.98877 21.0109L20.8728 7.12686"
+            // stroke="#173D33"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    case "arrowL":
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M14.3543 8.89346L5.24931 17.9985L14.3543 27.1035"
+            className={styles}
+            // stroke="#173D33"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M30.7491 17.9989H5.50408"
+            className={styles}
+            // stroke="#173D33"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
     default:
       return <svg></svg>;
   }

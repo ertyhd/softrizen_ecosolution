@@ -1,0 +1,57 @@
+.electricitySection {
+  margin-top: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.electricitySection h2 {
+  width: 491px;
+  color: #173d33;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 100% */
+  text-transform: uppercase;
+}
+.electricitySection_timer {
+  position: relative;
+  margin-top: 120px;
+  width: 975px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.electricitySection_timer::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 1px;
+  height: 87px;
+  flex-shrink: 0;
+  top: -17px;
+  left: 50%;
+  background: #97d28b;
+  transform: translateY(-100%);
+}
+.electricitySection_timer span {
+  color: #97d28b;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 164px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 164px; /* 100% */
+  text-transform: uppercase;
+}
+.electricitySection_timer p {
+  color: #173d33;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 100% */
+}
