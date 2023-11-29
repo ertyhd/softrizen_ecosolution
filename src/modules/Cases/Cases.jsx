@@ -5,7 +5,8 @@ import CasesNavBlock from "../../components/CasesNavBlock/CasesNavBlock";
 import CasesSlider from "../../components/CasesSlider/CasesSlider";
 import CasesPaginBlock from "../../components/CasesPaginBlock/CasesPaginBlock";
 
-import items from "./items";
+import items from "../../assete/data/cases_items";
+import { Element } from "react-scroll";
 
 const Cases = () => {
   const reviewsSwiperRef = useRef(null);
@@ -20,7 +21,7 @@ const Cases = () => {
   const handleClickPrev = () => reviewsSwiperRef.current.swiper.slidePrev();
   const handleClickNext = () => reviewsSwiperRef.current.swiper.slideNext();
   return (
-    <section className={styles.casesSection}>
+    <Element name="cases" className={styles.casesSection}>
       <div className={styles.casesSection_topBlock}>
         <h2>Successful cases of our company</h2>
         <div className={styles.casesSection_topBlock_navBlock}>
@@ -35,7 +36,7 @@ const Cases = () => {
           refference={reviewsSwiperRef}
         />
       </div>
-    </section>
+    </Element>
   );
 };
 

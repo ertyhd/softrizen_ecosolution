@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 
 const Header = lazy(() => import("../modules/Header/Header"));
 const MainPage = lazy(() => import("../pages/MainPage/MainPage"));
-const Footer = lazy(() => import("../modules/Footer/Footer"));
 
 const SharedLayout = () => {
   return (
@@ -13,7 +12,6 @@ const SharedLayout = () => {
         <Route path="/" element={<MainPage />} />
         <Route path="*" element={<div>Not Found page</div>} />
       </Routes>
-      <Footer />
     </Suspense>
   );
 };

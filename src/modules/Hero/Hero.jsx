@@ -5,9 +5,15 @@ import picture_d_1x from "../../assete/images/jpg/desk/wind-turbine-clean-energy
 import picture_d_2x from "../../assete/images/jpg/desk/wind-turbine-clean-energy2x.jpg";
 import picture_d_4x from "../../assete/images/jpg/desk/wind-turbine-clean-energy4x.jpg";
 
+import items from "../../assete/data/contact_items";
+import { Element } from "react-scroll";
+
 const Hero = () => {
+  const address = items.find((option) => option.title === "address");
+  const email = items.find((option) => option.title === "e-mail");
+
   return (
-    <section className={styles.heroContainer}>
+    <Element name="hero" className={styles.heroContainer}>
       <div className={styles.heroTextBlock}>
         <h1>RENEWABLE ENERGY For any task</h1>
         <div className={styles.heroTextBlock_deskription}>
@@ -18,12 +24,11 @@ const Hero = () => {
           </p>
           <ButtonLearnMore />
         </div>
-        {/* Cases */}
       </div>
       <div className={styles.heroContactBlock}>
-        <p>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</p>
+        <p>{address.text_1}</p>
         <div className={styles.heroContactBlock_rightPart}>
-          <p>office@ecosolution.com</p>
+          <p>{email.text_1}</p>
           <p>ecosolution © 2023</p>
         </div>
       </div>
@@ -34,7 +39,7 @@ const Hero = () => {
           src={picture_d_1x}
         />
       </div>
-    </section>
+    </Element>
   );
 };
 

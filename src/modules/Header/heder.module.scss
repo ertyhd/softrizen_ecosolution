@@ -1,9 +1,25 @@
+.hederSlick {
+  position: relative;
+  height: 92px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 100px;
+}
 .hederSection {
+  height: 92px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  background-color: #f3f5fa;
+}
+.hederSectionCentred {
   max-width: 1440px;
   margin: 0 auto;
   padding: 24px 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .hederSectionButtonBlock {
   display: flex;

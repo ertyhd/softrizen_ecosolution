@@ -2,11 +2,12 @@ import styles from "./faq.module.scss";
 import FaqGridBlock from "../../components/FaqGridBlock/FaqGridBlock";
 import ButtonTouch from "../../components/Buttons/ButtonTouch/ButtonTouch";
 
-import items from "./items";
+import items from "../../assete/data/faq_items";
+import { Element } from "react-scroll";
 
 const Faq = () => {
   return (
-    <section className={styles.fagSection}>
+    <Element name="faq" className={styles.fagSection}>
       <div className={styles.fagSection_leftBlock}>
         <FaqGridBlock items={items} />
       </div>
@@ -17,7 +18,7 @@ const Faq = () => {
           <ButtonTouch>Contact Us</ButtonTouch>
         </div>
       </div>
-    </section>
+    </Element>
   );
 };
 

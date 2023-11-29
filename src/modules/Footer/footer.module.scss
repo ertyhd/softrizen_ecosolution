@@ -1,0 +1,33 @@
+.footerSection {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 1px solid #97d28b;
+}
+.footerSection p {
+  color: #173d33;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+.footerLeftBlock p {
+  margin-top: 16px;
+}
+.footerRightBlock {
+  display: flex;
+  gap: 167px;
+}
+.footerRightBlock_social p {
+  margin-top: 28px;
+}
+.footerRightBlock_upBtn p {
+  margin-top: 24px;
+}
+.footerRightBlock_upBtn {
+  text-align: right;
+}

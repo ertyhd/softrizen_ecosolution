@@ -2,10 +2,10 @@ import styles from "./contactUsSingleItem.module.scss";
 import { Link } from "react-router-dom";
 import { SvgSelector } from "../SvgSelector/SvgSelector";
 
-const ContactUsSingleItem = ({ item }) => {
+const ContactUsSingleItem = ({ item, withoutTitle = false }) => {
   return (
     <>
-      <p className={styles.contactTitle}>{item.title}</p>
+      {!withoutTitle && <p className={styles.contactTitle}>{item.title}:</p>}
       <div className={item.text_1 ? styles.linkBlockCol : styles.linkBlockRow}>
         <Link className={styles.contactLink} href={item.link_1}>
           <SvgSelector styles={styles.linkBlock_svg} id={item.ico_1} />

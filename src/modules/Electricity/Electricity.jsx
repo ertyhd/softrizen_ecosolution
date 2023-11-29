@@ -1,3 +1,4 @@
+import { Element } from "react-scroll";
 import styles from "./electricity.module.scss";
 import { useState, useEffect } from "react";
 
@@ -16,13 +17,13 @@ const Electricity = () => {
     return () => clearInterval(interval);
   }, [seconds]);
   return (
-    <section className={styles.electricitySection}>
+    <Element name="electricity" className={styles.electricitySection}>
       <h2>Electricity we produced for all time</h2>
       <div className={styles.electricitySection_timer}>
         <span>{formattedNumber}</span>
         <p>kWh</p>
       </div>
-    </section>
+    </Element>
   );
 };
 

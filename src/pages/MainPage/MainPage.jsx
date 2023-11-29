@@ -5,6 +5,7 @@ import Electricity from "../../modules/Electricity/Electricity";
 import Cases from "../../modules/Cases/Cases";
 import Faq from "../../modules/Faq/Faq";
 import ContactUs from "../../modules/ContactUs/ContactUs";
+import Footer from "../../modules/Footer/Footer";
 
 const MainPage = () => {
   return (
@@ -15,6 +16,7 @@ const MainPage = () => {
       <Cases />
       <Faq />
       <ContactUs />
+      <Footer />
     </section>
   );
 };

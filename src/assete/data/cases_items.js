@@ -1,19 +1,19 @@
 import { nanoid } from "nanoid";
-import wind_power_d_1x from "../../assete/images/jpg/desk/slider/wind_power1x.jpg";
-import wind_power_d_2x from "../../assete/images/jpg/desk/slider/wind_power2x.jpg";
-import wind_power_d_4x from "../../assete/images/jpg/desk/slider/wind_power4x.jpg";
-import solar_panels_d_1x from "../../assete/images/jpg/desk/slider/solar_panels1x.jpg";
-import solar_panels_d_2x from "../../assete/images/jpg/desk/slider/solar_panels2x.jpg";
-import solar_panels_d_4x from "../../assete/images/jpg/desk/slider/solar_panels4x.jpg";
-import thermal_modules_d_1x from "../../assete/images/jpg/desk/slider/thermal_modules1x.jpg";
-import thermal_modules_d_2x from "../../assete/images/jpg/desk/slider/thermal_modules2x.jpg";
-import thermal_modules_d_4x from "../../assete/images/jpg/desk/slider/thermal_modules4x.jpg";
-import kherson_city_d_1x from "../../assete/images/jpg/desk/slider/kherson_city1x.jpg";
-import kherson_city_d_2x from "../../assete/images/jpg/desk/slider/kherson_city2x.jpg";
-import kherson_city_d_4x from "../../assete/images/jpg/desk/slider/kherson_city4x.jpg";
-import nuclear_power_d_1x from "../../assete/images/jpg/desk/slider/nuclear-power1x.jpg";
-import nuclear_power_d_2x from "../../assete/images/jpg/desk/slider/nuclear-power2x.jpg";
-import nuclear_power_d_4x from "../../assete/images/jpg/desk/slider/nuclear-power4x.jpg";
+import wind_power_d_1x from "../images/jpg/desk/slider/wind_power1x.jpg";
+import wind_power_d_2x from "../images/jpg/desk/slider/wind_power2x.jpg";
+import wind_power_d_4x from "../images/jpg/desk/slider/wind_power4x.jpg";
+import solar_panels_d_1x from "../images/jpg/desk/slider/solar_panels1x.jpg";
+import solar_panels_d_2x from "../images/jpg/desk/slider/solar_panels2x.jpg";
+import solar_panels_d_4x from "../images/jpg/desk/slider/solar_panels4x.jpg";
+import thermal_modules_d_1x from "../images/jpg/desk/slider/thermal_modules1x.jpg";
+import thermal_modules_d_2x from "../images/jpg/desk/slider/thermal_modules2x.jpg";
+import thermal_modules_d_4x from "../images/jpg/desk/slider/thermal_modules4x.jpg";
+import kherson_city_d_1x from "../images/jpg/desk/slider/kherson_city1x.jpg";
+import kherson_city_d_2x from "../images/jpg/desk/slider/kherson_city2x.jpg";
+import kherson_city_d_4x from "../images/jpg/desk/slider/kherson_city4x.jpg";
+import nuclear_power_d_1x from "../images/jpg/desk/slider/nuclear-power1x.jpg";
+import nuclear_power_d_2x from "../images/jpg/desk/slider/nuclear-power2x.jpg";
+import nuclear_power_d_4x from "../images/jpg/desk/slider/nuclear-power4x.jpg";
 
 const items = [
   {

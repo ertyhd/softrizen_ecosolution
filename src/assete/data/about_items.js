@@ -1,10 +1,10 @@
 import { nanoid } from "nanoid";
-import wind_farms_d_1x from "../../assete/images/jpg/desk/wind-farms-fields_1x.jpg";
-import wind_farms_d_2x from "../../assete/images/jpg/desk/wind-farms-fields_2x.jpg";
-import wind_farms_d_4x from "../../assete/images/jpg/desk/wind-farms-fields_4x.jpg";
-import solar_panel_d_1x from "../../assete/images/jpg/desk/man-worker-firld-by-solar-panels_1x.jpg";
-import solar_panel_d_2x from "../../assete/images/jpg/desk/man-worker-firld-by-solar-panels_2x.jpg";
-import solar_panel_d_4x from "../../assete/images/jpg/desk/man-worker-firld-by-solar-panels_4x.jpg";
+import wind_farms_d_1x from "../images/jpg/desk/wind-farms-fields_1x.jpg";
+import wind_farms_d_2x from "../images/jpg/desk/wind-farms-fields_2x.jpg";
+import wind_farms_d_4x from "../images/jpg/desk/wind-farms-fields_4x.jpg";
+import solar_panel_d_1x from "../images/jpg/desk/man-worker-firld-by-solar-panels_1x.jpg";
+import solar_panel_d_2x from "../images/jpg/desk/man-worker-firld-by-solar-panels_2x.jpg";
+import solar_panel_d_4x from "../images/jpg/desk/man-worker-firld-by-solar-panels_4x.jpg";
 const items = [
   {
     id: nanoid(),

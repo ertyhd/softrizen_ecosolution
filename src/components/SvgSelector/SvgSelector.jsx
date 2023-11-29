@@ -666,6 +666,33 @@ export const SvgSelector = ({ color, id, styles, viewBox }) => {
           />
         </svg>
       );
+    case "arrowUp":
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+        >
+          <path
+            d="M3.95312 6.37988L7.99979 2.33322L12.0465 6.37988"
+            // stroke="#173D33"
+            className={styles}
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M8 13.6667L8 2.44675"
+            // stroke="#173D33"
+            className={styles}
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
     default:
       return <svg></svg>;
   }

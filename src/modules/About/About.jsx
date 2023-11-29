@@ -1,6 +1,7 @@
 import styles from "./about.module.scss";
-import items from "./items";
+import items from "../../assete/data/about_items";
 import AboutSingleCard from "../../components/AboutSingleCard/AboutSingleCard";
+import { Element } from "react-scroll";
 
 const About = () => {
   const elements = items.map((item) => (
@@ -8,7 +9,7 @@ const About = () => {
   ));
 
   return (
-    <section className={styles.aboutContainer}>
+    <Element name="about" className={styles.aboutContainer}>
       <div className={styles.aboutContainer_description}>
         <h2>Main values of our company</h2>
         <p>
@@ -20,7 +21,7 @@ const About = () => {
         </p>
       </div>
       <ul className={styles.aboutContainer_grid}>{elements}</ul>
-    </section>
+    </Element>
   );
 };
 

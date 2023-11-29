@@ -2,7 +2,7 @@ import { nanoid } from "nanoid";
 const items = [
   {
     id: nanoid(),
-    title: "Phone:",
+    title: "phone",
     text_1: "38 (098) 12 34 567",
     text_2: "38 (093) 12 34 567",
     link_1: "+380981234567",
@@ -12,7 +12,7 @@ const items = [
   },
   {
     id: nanoid(),
-    title: "E-mail:",
+    title: "e-mail",
     text_1: "office@ecosolution.com",
     text_2: "",
     link_1: "mailto:office@ecosolution.com",
@@ -22,7 +22,7 @@ const items = [
   },
   {
     id: nanoid(),
-    title: "Address:",
+    title: "address",
     text_1: "79005, Ukraine, Lvivstreet. Shota Rustaveli, 7",
     text_2: "",
     link_1: "https://maps.app.goo.gl/Yx6zwwFb6TKQEmMk8",
@@ -32,7 +32,7 @@ const items = [
   },
   {
     id: nanoid(),
-    title: "Social Networks:",
+    title: "social networks",
     text_1: "",
     text_2: "",
     link_1: "https://www.facebook.com/",
