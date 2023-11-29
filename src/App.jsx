@@ -9,7 +9,7 @@ export const App = () => {
   return (
     // <Provider store={store}>
     // <PersistGate loading={null} persistor={persistor}>
-    <BrowserRouter basename="/softrizen_ecosolution">
+    <BrowserRouter basename="/">
       <SharedLayout />
     </BrowserRouter>
     // </PersistGate>
