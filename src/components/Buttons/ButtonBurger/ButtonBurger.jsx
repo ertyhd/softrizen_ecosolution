@@ -1,9 +1,13 @@
 import styles from "./buttonBurger.module.scss";
 import { SvgSelector } from "../../SvgSelector/SvgSelector";
 
-const ButtonBurger = () => {
+const ButtonBurger = ({ handleClick }) => {
   return (
-    <button className={styles.hederSectionButtonBlock_burger} type="button">
+    <button
+      onClick={handleClick}
+      className={styles.hederSectionButtonBlock_burger}
+      type="button"
+    >
       <SvgSelector id="burgerDesk" />
     </button>
   );

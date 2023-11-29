@@ -13,7 +13,7 @@ const Hero = () => {
   const email = items.find((option) => option.title === "e-mail");
 
   return (
-    <Element name="hero" className={styles.heroContainer}>
+    <Element name="Main" className={styles.heroContainer}>
       <div className={styles.heroTextBlock}>
         <h1>RENEWABLE ENERGY For any task</h1>
         <div className={styles.heroTextBlock_deskription}>

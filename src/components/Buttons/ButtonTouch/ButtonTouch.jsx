@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const ButtonTouch = ({ children }) => {
   return (
     <Link
-      to="contact"
+      to="Contact Us"
       smooth={true}
       duration={1200}
       className={styles.hederSectionButtonBlock_touch}

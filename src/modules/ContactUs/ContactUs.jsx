@@ -7,7 +7,7 @@ import { Element } from "react-scroll";
 
 const ContactUs = () => {
   return (
-    <Element name="contact" className={styles.contactUsSection}>
+    <Element name="Contact Us" className={styles.contactUsSection}>
       <h2>Contact us</h2>
       <div className={styles.contactUsContainer}>
         <div className={styles.contactUsContainer_contacts}>

@@ -1,0 +1,85 @@
+.modalMenuWindow {
+  padding: 24px;
+  width: 365px;
+  height: 100%;
+  border-radius: 25px;
+  background: rgba(23, 61, 51, 0.75);
+  backdrop-filter: blur(12.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.modalMenuWindow_upBlock {
+  width: 100%;
+}
+.modalMenuWindow_button {
+  display: flex;
+  align-items: center;
+}
+.modalMenuWindow_button_svg {
+  stroke: #fff;
+  transition: stroke 0.2s ease-in-out;
+}
+.modalMenuWindow_button p {
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  transition: color 0.2s ease-in-out;
+}
+.modalMenuWindow_button:hover .modalMenuWindow_button_svg {
+  stroke: #97d28b;
+}
+.modalMenuWindow_button:hover p {
+  color: #97d28b;
+}
+.modalMenuWindow_links {
+  padding-top: 16px;
+  margin-top: 4px;
+  border-top: 1px solid #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.modalMenuWindow_link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+}
+.modalMenuWindow_link p {
+  color: rgba(255, 255, 255, 0.25);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  transition: color 0.2s ease-in-out;
+}
+.modalMenuWindow_link:hover p {
+  color: rgba(151, 210, 139, 0.25);
+}
+.modalMenuWindow_link:active p {
+  color: #fff;
+}
+.modalMenuWindow_link_svg {
+  stroke: rgba(255, 255, 255, 0.25);
+  transition: stroke 0.2s ease-in-out;
+}
+.modalMenuWindow_link:hover .modalMenuWindow_link_svg {
+  stroke: rgba(151, 210, 139, 0.25);
+}
+.modalMenuWindow_link:active .modalMenuWindow_link_svg {
+  stroke: #fff;
+}
+.modalMenuWindow_social {
+  margin-bottom: 0;
+  margin-top: auto;
+}

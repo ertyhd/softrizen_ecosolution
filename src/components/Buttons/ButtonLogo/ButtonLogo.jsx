@@ -1,11 +1,12 @@
 import styles from "./buttonLogo.module.scss";
 import { SvgSelector } from "../../SvgSelector/SvgSelector";
+import { Link } from "react-scroll";
 
 const ButtonLogo = () => {
   return (
-    <a className={styles.hederSectionLogo} href="#top">
+    <Link className={styles.hederSectionLogo} to="header">
       <SvgSelector styles={styles.hederSectionLogo_svg} id="logo" />
-    </a>
+    </Link>
   );
 };
 

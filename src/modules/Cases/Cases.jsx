@@ -21,7 +21,7 @@ const Cases = () => {
   const handleClickPrev = () => reviewsSwiperRef.current.swiper.slidePrev();
   const handleClickNext = () => reviewsSwiperRef.current.swiper.slideNext();
   return (
-    <Element name="cases" className={styles.casesSection}>
+    <Element name="Cases" className={styles.casesSection}>
       <div className={styles.casesSection_topBlock}>
         <h2>Successful cases of our company</h2>
         <div className={styles.casesSection_topBlock_navBlock}>

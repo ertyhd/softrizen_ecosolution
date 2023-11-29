@@ -693,6 +693,52 @@ export const SvgSelector = ({ color, id, styles, viewBox }) => {
           />
         </svg>
       );
+    case "close":
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+        >
+          <path
+            d="M5.83325 5.83325L14.1666 14.1666M5.83325 14.1666L14.1666 5.83325"
+            // stroke="white"
+            className={styles}
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    case "modalLink":
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="17"
+          viewBox="0 0 16 17"
+          fill="none"
+        >
+          <path
+            d="M6.28418 4.49219L12.007 4.49219L12.007 10.215"
+            // stroke="white"
+            className={styles}
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M3.99365 12.5061L11.9274 4.57237"
+            // stroke="white"
+            className={styles}
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
     default:
       return <svg></svg>;
   }

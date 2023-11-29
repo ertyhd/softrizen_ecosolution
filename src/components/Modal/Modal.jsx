@@ -1,4 +1,3 @@
-// import PropTypes from "prop-types";
 import { useEffect } from "react";
 
 import { createPortal } from "react-dom";
@@ -19,15 +18,12 @@ const Modal = ({ children, close }) => {
 
   return createPortal(
     <div className={css.overlay} onClick={closeModal}>
-      <div className={css.modal}>{children}</div>
+      <div className={css.modal} onClick={closeModal}>
+        {children}
+      </div>
     </div>,
     modalRoot
   );
 };
 
 export default Modal;
-
-// Modal.propTypes = {
-//   children: PropTypes.element,
-//   close: PropTypes.func.isRequired,
-// };

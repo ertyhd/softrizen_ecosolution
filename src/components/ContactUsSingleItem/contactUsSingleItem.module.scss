@@ -41,3 +41,10 @@
 .contactLink:hover .linkBlock_svg {
   stroke: #97d28b;
 }
+.modalLinkBlock_svg {
+  stroke: #fff;
+  transition: stroke 0.2s ease-in-out;
+}
+.contactLink:hover .modalLinkBlock_svg {
+  stroke: #97d28b;
+}

@@ -7,7 +7,7 @@ import { Element } from "react-scroll";
 
 const Faq = () => {
   return (
-    <Element name="faq" className={styles.fagSection}>
+    <Element name="FAQ" className={styles.fagSection}>
       <div className={styles.fagSection_leftBlock}>
         <FaqGridBlock items={items} />
       </div>

@@ -9,7 +9,7 @@ const About = () => {
   ));
 
   return (
-    <Element name="about" className={styles.aboutContainer}>
+    <Element name="About" className={styles.aboutContainer}>
       <div className={styles.aboutContainer_description}>
         <h2>Main values of our company</h2>
         <p>

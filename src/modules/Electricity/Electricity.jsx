@@ -17,7 +17,7 @@ const Electricity = () => {
     return () => clearInterval(interval);
   }, [seconds]);
   return (
-    <Element name="electricity" className={styles.electricitySection}>
+    <Element name="Electricity" className={styles.electricitySection}>
       <h2>Electricity we produced for all time</h2>
       <div className={styles.electricitySection_timer}>
         <span>{formattedNumber}</span>

@@ -6,7 +6,7 @@ const ButtonLearnMore = () => {
   return (
     <>
       <Link
-        to="cases"
+        to="Cases"
         smooth={true}
         duration={1200}
         className={styles.learmMoreBtn}
