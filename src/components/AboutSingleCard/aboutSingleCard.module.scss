@@ -1,9 +1,21 @@
 .singlCardContainer {
-  width: 274px;
-  height: 339px;
+  width: 148px;
+  height: 197px;
+  flex-grow: 1;
   flex-shrink: 0;
   background: #eaedf1;
-  padding: 48px 24px;
+  padding: 12px 12px;
+  @media screen and (min-width: 768px) {
+    flex-grow: 0;
+    width: 159px;
+    height: 197px;
+    padding: 12px 12px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 274px;
+    height: 339px;
+    padding: 48px 24px;
+  }
 }
 
 .singlCardContainer_titleBlock {
@@ -11,40 +23,95 @@
   gap: 8px;
   align-items: center;
   justify-content: flex-start;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.singlCardContainer_titleBlock_svg {
+  width: 16px;
+  height: 16px;
+  @media screen and (min-width: 1280px) {
+    width: 24px;
+    height: 24px;
+  }
 }
 .singlCardContainer_titleBlock h3 {
   color: #173d33;
   font-family: Oswald;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px; /* 150% */
-  text-transform: uppercase;
-}
-.singlCardContainer p {
-  position: relative;
-  margin-top: 119px;
-  color: #173d33;
-  text-align: justify;
-  font-family: Fira Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+.singlCardContainer p {
+  position: relative;
+  margin-top: 46px;
+  color: #173d33;
+  text-align: justify;
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.56px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    margin-top: 64px;
+    letter-spacing: -0.56px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    margin-top: 119px;
+    letter-spacing: -0.64px;
+  }
 }
 .singlCardContainer p::before {
   content: "";
   position: absolute;
   z-index: 2;
-  width: 226px;
+  // width: 226px;
+  width: 100%;
   height: 1px;
   flex-shrink: 0;
-  top: -24px;
+  top: -12px;
   background: #97d28b;
+  @media screen and (min-width: 1280px) {
+    top: -24px;
+  }
 }
 .singlImageContainer {
-  width: 596px;
-  height: 339px;
-  flex-shrink: 0;
+  // width: 596px;
+  // height: 339px;
+  // flex-shrink: 0;
+  // position: relative;
+  // overflow: hidden;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    width: 342px;
+    height: 197px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 596px;
+    height: 339px;
+  }
+}
+.singlImageContainer_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

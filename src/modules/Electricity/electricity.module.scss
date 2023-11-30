@@ -1,57 +1,103 @@
 .electricitySection {
-  padding-top: 121px;
+  padding-top: 36px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
 }
 .electricitySection h2 {
-  width: 491px;
+  width: 286px;
   color: #173d33;
   text-align: center;
   font-family: Oswald;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 28px;
   text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    width: 368px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 491px;
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 .electricitySection_timer {
   position: relative;
-  margin-top: 120px;
-  width: 975px;
+  margin-top: 96px;
+  width: 303px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    margin-top: 135px;
+    width: 590px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 120px;
+    width: 955px;
+  }
 }
 .electricitySection_timer::before {
   content: "";
   position: absolute;
   z-index: 2;
   width: 1px;
-  height: 87px;
+  height: 48px;
   flex-shrink: 0;
-  top: -17px;
+  top: -24px;
   left: 50%;
   background: #97d28b;
   transform: translateY(-100%);
+  @media screen and (min-width: 768px) {
+    height: 87px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: -17px;
+  }
 }
 .electricitySection_timer span {
   color: #97d28b;
   text-align: center;
   font-family: Oswald;
-  font-size: 164px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 164px; /* 100% */
+  line-height: 48px;
   text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 164px;
+    line-height: 164px;
+  }
 }
 .electricitySection_timer p {
   color: #173d33;
   text-align: center;
   font-family: Oswald;
-  font-size: 48px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 48px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+    line-height: 48px;
+  }
 }

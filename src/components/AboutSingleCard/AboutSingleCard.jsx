@@ -8,7 +8,11 @@ const AboutSingleCard = ({ item }) => {
         {item.atr === "card" && (
           <li className={styles.singlCardContainer}>
             <div className={styles.singlCardContainer_titleBlock}>
-              <SvgSelector id={item.svgId} />
+              <SvgSelector
+                styles={styles.singlCardContainer_titleBlock_svg}
+                id={item.svgId}
+              />
+
               <h3>{item.title}</h3>
             </div>
             <p>{item.text}</p>
@@ -17,6 +21,7 @@ const AboutSingleCard = ({ item }) => {
         {item.atr === "img" && (
           <li className={styles.singlImageContainer}>
             <img
+              className={styles.singlImageContainer_img}
               alt={item.title}
               srcSet={`${item.img.d_1x} 1x, ${item.img.d_2x} 2x, ${item.img.d_4x} 4x`}
               src={item.img.d_1x}
