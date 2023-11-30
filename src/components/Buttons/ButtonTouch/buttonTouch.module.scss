@@ -1,14 +1,20 @@
 .hederSectionButtonBlock_touch {
-  display: inline-flex;
-  padding: 10px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
+  display: none;
+  pointer-events: none;
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 
-  border-radius: 500px;
-  background: #97d28b;
+    border-radius: 500px;
+    background: #97d28b;
 
-  transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  @media screen and (min-width: 1280px) {
+  }
 }
 .hederSectionButtonBlock_touch p {
   color: #173d33;

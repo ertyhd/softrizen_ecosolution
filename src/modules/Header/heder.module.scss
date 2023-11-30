@@ -1,25 +1,48 @@
 .hederSlick {
   position: relative;
-  height: 92px;
-  max-width: 1242px;
   margin: 0 auto;
-  padding: 24px 0;
+  height: 112px;
+  max-width: 480px;
+  padding: 36px 20px;
+  @media screen and (min-width: 768px) {
+    height: 112px;
+    max-width: 100%;
+    padding: 36px 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    height: 92px;
+    max-width: 1242px;
+    padding: 24px 0;
+  }
 }
 .hederSection {
-  height: 92px;
+  height: 112;
   position: fixed;
   z-index: 1000;
   top: 0;
   width: 100%;
   background-color: #f3f5fa;
+  @media screen and (min-width: 768px) {
+    height: 112;
+  }
+  @media screen and (min-width: 1280px) {
+    height: 92px;
+  }
 }
 .hederSectionCentred {
-  max-width: 1242px;
+  // max-width: 1242px;
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 36px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    padding: 36px 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1242px;
+    padding: 24px 0;
+  }
 }
 .hederSectionButtonBlock {
   display: flex;
