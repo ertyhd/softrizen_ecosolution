@@ -1,23 +1,46 @@
 .aboutContainer {
-  padding-top: 120px;
+  padding-top: 36px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
 }
 .aboutContainer_description {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+  gap: 24px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
 }
 .aboutContainer_description h2 {
-  width: 365px;
+  width: 100%px;
   color: #173d33;
   font-family: Oswald;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 28px;
   text-transform: uppercase;
+  @media screen and (min-width: 1280px) {
+    width: 272px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 365px;
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 .aboutContainer_description p {
   position: relative;
-  width: 459px;
+  // width: 100%;
   color: #173d33;
   text-align: justify;
   font-family: Fira Sans;
@@ -26,20 +49,41 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.64px;
+  @media screen and (min-width: 768px) {
+    width: 342px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 459px;
+  }
 }
+
 .aboutContainer_description p::before {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  width: 1px;
-  height: 87px;
-  flex-shrink: 0;
-  left: -161px;
-  background: #97d28b;
+  @media screen and (min-width: 768px) {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    flex-shrink: 0;
+    background: #97d28b;
+    width: 1px;
+    left: -11px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1px;
+    left: -161px;
+  }
 }
 .aboutContainer_grid {
-  margin-top: 124px;
+  margin-top: 36px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 24px;
+  @media screen and (min-width: 768px) {
+    margin-top: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 124px;
+    gap: 48px;
+  }
 }

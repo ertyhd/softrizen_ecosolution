@@ -29,7 +29,9 @@ const Hero = () => {
         <p>{address.text_1}</p>
         <div className={styles.heroContactBlock_rightPart}>
           <p>{email.text_1}</p>
-          <p>ecosolution © 2023</p>
+          <p className={styles.heroContactBlock_rightPart_c}>
+            ecosolution © 2023
+          </p>
         </div>
       </div>
       <div className={styles.heroImgBlock}>
