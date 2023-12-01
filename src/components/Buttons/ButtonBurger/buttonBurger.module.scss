@@ -6,12 +6,20 @@
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
-
   border-radius: 500px;
   background: #dcefd8;
 
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 .hederSectionButtonBlock_burger:hover {
-  background: #97d28b;
+  @media screen and (min-width: 1280px) {
+    background: #97d28b;
+  }
+}
+.hederSectionButtonBlock_burger:active {
+  @media screen and (max-width: 1279px) {
+    background: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }

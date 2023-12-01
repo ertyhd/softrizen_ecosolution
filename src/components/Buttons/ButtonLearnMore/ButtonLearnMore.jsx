@@ -10,7 +10,6 @@ const ButtonLearnMore = () => {
         smooth={true}
         duration={1200}
         className={styles.learmMoreBtn}
-        href="#top"
       >
         Learn more
         <div className={styles.learmMoreBtn_svgWrapper}>

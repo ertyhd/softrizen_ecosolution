@@ -6,12 +6,10 @@
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
-
   border-radius: 500px;
   border: 1px solid #97d28b;
-  // background-color: #fff;
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
-    color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
 
   color: #173d33;
   font-family: Fira Sans;
@@ -22,9 +20,20 @@
   letter-spacing: -0.64px;
 }
 .learmMoreBtn:hover {
-  background-color: #173d33;
-  border: 1px solid #173d33;
-  color: #97d28b;
+  @media screen and (min-width: 1280px) {
+    background-color: #173d33;
+    border: 1px solid #173d33;
+    color: #97d28b;
+  }
+}
+.learmMoreBtn:active {
+  @media screen and (max-width: 1279px) {
+    background-color: #173d33;
+    border: 1px solid #173d33;
+    color: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 .learmMoreBtn_svgWrapper {
   display: flex;

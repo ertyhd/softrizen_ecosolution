@@ -11,7 +11,7 @@ const ContactUsSingleItem = ({
     <>
       {!withoutTitle && <p className={styles.contactTitle}>{item.title}:</p>}
       <div className={item.text_1 ? styles.linkBlockCol : styles.linkBlockRow}>
-        <Link className={styles.contactLink} href={item.link_1}>
+        <Link className={styles.contactLink} to={item.link_1}>
           <SvgSelector
             styles={
               modalStyles ? styles.modalLinkBlock_svg : styles.linkBlock_svg
@@ -21,7 +21,7 @@ const ContactUsSingleItem = ({
           <p>{item.text_1}</p>
         </Link>
         {item.ico_2 && (
-          <Link className={styles.contactLink} href={item.link_2}>
+          <Link className={styles.contactLink} to={item.link_2}>
             <SvgSelector
               styles={
                 modalStyles ? styles.modalLinkBlock_svg : styles.linkBlock_svg

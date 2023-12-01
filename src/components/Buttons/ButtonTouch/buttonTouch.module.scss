@@ -32,13 +32,30 @@
   transition: fill 0.3s ease-in-out;
 }
 .hederSectionButtonBlock_touch:hover {
-  background: #173d33;
+  @media screen and (min-width: 1280px) {
+    background: #173d33;
+    color: #97d28b;
+  }
 }
-.hederSectionButtonBlock_touch:hover p {
-  color: #97d28b;
+.hederSectionButtonBlock_touch:active {
+  @media screen and (max-width: 1279px) {
+    background: #173d33;
+    color: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 .hederSectionButtonBlock_touch:hover .hederSectionButtonBlock_touch__svg {
-  fill: #97d28b;
+  @media screen and (min-width: 1280px) {
+    fill: #97d28b;
+  }
+}
+.hederSectionButtonBlock_touch:active .hederSectionButtonBlock_touch__svg {
+  @media screen and (max-width: 1279px) {
+    fill: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 .hederSectionButtonBlock_learn__svg {
   display: flex;

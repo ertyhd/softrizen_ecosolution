@@ -1,7 +1,22 @@
 .hederSectionLogo .hederSectionLogo_svg {
   fill: #173d33;
-  transition: fill 0.3s ease-in-out;
+  transition: fill 0.2s ease-in-out;
 }
 .hederSectionLogo:hover .hederSectionLogo_svg {
-  fill: #97d28b;
+  @media screen and (min-width: 1280px) {
+    fill: #97d28b;
+  }
+}
+.hederSectionLogo:active .hederSectionLogo_svg {
+  @media screen and (max-width: 1279px) {
+    fill: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+.hederSectionLogo:active {
+  @media screen and (max-width: 1279px) {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
