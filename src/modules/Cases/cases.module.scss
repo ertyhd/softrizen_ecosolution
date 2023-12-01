@@ -1,27 +1,86 @@
 .casesSection {
-  padding-top: 120px;
+  padding-top: 36px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
 }
 .casesSection_topBlock {
+  position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+.casesSection_topBlock::before {
+  @media screen and (min-width: 768px) {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    height: 65px;
+    flex-shrink: 0;
+    background: #97d28b;
+    width: 1px;
+    left: 50%;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1px;
+    height: 96px;
+  }
 }
 .casesSection_topBlock h2 {
-  width: 398px;
+  width: 100%;
   color: #173d33;
   font-family: Oswald;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 28px;
   text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    width: 264px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 398px;
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 .casesSection_topBlock_navBlock {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 396px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 334px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 396px;
+  }
 }
 .casesSection_bottomBlock {
-  margin-top: 114px;
+  // margin-left: auto;
+  // margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+  @media screen and (min-width: 768px) {
+    // width: 708px;
+    // width: 100%;
+    margin-top: 38px;
+    // flex-grow: 1;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 120px;
+    width: 1280px;
+  }
 }

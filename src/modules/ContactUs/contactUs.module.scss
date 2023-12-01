@@ -1,22 +1,67 @@
 .contactUsSection {
-  padding-top: 120px;
+  padding-top: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
 }
 .contactUsSection h2 {
   color: #173d33;
   font-family: Oswald;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 28px;
   text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    width: 272px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 365px;
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 .contactUsContainer {
-  margin-top: 129px;
+  margin-top: 24px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  // justify-content: space-between;
+  gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 120px;
+    gap: 48px;
+  }
+}
+.contactUsContainer_contacts {
+  @media screen and (min-width: 768px) {
+    width: 342px;
+    flex-grow: 1;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 596px;
+  }
+}
+.contactUsContainer_forms {
+  @media screen and (min-width: 768px) {
+    width: 342px;
+    flex-grow: 1;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 596px;
+  }
 }

@@ -1,17 +1,23 @@
 .buttonWrap {
   display: flex;
-  gap: 24px;
+  gap: 12px;
+
+  @media screen and (min-width: 1280px) {
+    gap: 24px;
+  }
 }
+
 .buttonWrap button {
   display: inline-flex;
-  padding: 24px;
+  padding: 15px;
   align-items: flex-start;
   gap: 10px;
-
   border-radius: 100px;
   border: 1px solid #173d33;
-
   transition: border-color 0.3s ease-in-out;
+  @media screen and (min-width: 1280px) {
+    padding: 24px;
+  }
 }
 .buttonWrap_svg {
   stroke: #173d33;
