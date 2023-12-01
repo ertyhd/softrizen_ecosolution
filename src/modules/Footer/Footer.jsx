@@ -10,20 +10,6 @@ const Footer = () => {
   const social = items.find((option) => option.title === "social networks");
   return (
     <section className={styles.footerSection}>
-      {/* <div className={styles.footerLeftBlock}>
-        <ButtonLogo />
-        <p>{address.text_1}</p>
-      </div>
-      <div className={styles.footerRightBlock}>
-        <div className={styles.footerRightBlock_social}>
-          <ContactUsSingleItem item={social} withoutTitle={true} />
-          <p>{email.text_1}</p>
-        </div>
-        <div className={styles.footerRightBlock_upBtn}>
-          <ButtonUp />
-          <p>ecosolution © 2023</p>
-        </div>
-      </div> */}
       <div className={styles.footerUpBlock}>
         <div className={styles.footerUpBlock_halfW}>
           <ButtonLogo />

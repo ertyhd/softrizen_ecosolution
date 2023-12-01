@@ -8,6 +8,7 @@ const ButtonTouch = ({ children }) => {
       to="Contact Us"
       smooth={true}
       duration={1200}
+      offset={-92}
       className={styles.hederSectionButtonBlock_touch}
     >
       <p>{children}</p>

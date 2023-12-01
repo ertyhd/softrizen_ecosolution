@@ -10,6 +10,7 @@ const ButtonLearnMore = () => {
         smooth={true}
         duration={1200}
         className={styles.learmMoreBtn}
+        offset={-92}
       >
         Learn more
         <div className={styles.learmMoreBtn_svgWrapper}>
