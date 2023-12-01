@@ -17,6 +17,7 @@ const ModalMenu = ({ close }) => {
         to={modul}
         smooth={true}
         duration={1200}
+        offset={-92}
         className={styles.modalMenuWindow_link}
       >
         <p>{modul}</p>
