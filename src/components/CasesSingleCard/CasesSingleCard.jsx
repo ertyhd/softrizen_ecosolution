@@ -7,6 +7,7 @@ const CasesSingleCard = ({ item }) => {
       <div className={styles.casesSingleCardContainer_imgWrap}>
         {/* <img alt={text} src={img} /> */}
         <img
+          className={styles.casesSingleCardContainer_imgWrap_img}
           alt={item.text}
           srcSet={`${item.img.d_1x} 1x, ${item.img.d_2x} 2x, ${item.img.d_4x} 4x`}
           src={item.img.d_1x}
@@ -27,14 +28,3 @@ const CasesSingleCard = ({ item }) => {
 };
 
 export default CasesSingleCard;
-// {
-//     id: nanoid(),
-//     title: "Zaporizhia city Private Enterprise “Biotech”",
-//     text: "Mini nuclear stations",
-//     date: "May 2021",
-//     img: {
-//       d_1x: nuclear_power_d_1x,
-//       d_2x: nuclear_power_d_2x,
-//       d_4x: nuclear_power_d_4x,
-//     },
-//   },

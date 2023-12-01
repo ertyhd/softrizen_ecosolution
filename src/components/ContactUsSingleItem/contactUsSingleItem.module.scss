@@ -1,5 +1,5 @@
 .contactTitle {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   color: #173d33;
   text-align: justify;
   font-family: Fira Sans;
@@ -9,30 +9,50 @@
   line-height: normal;
   letter-spacing: -0.64px;
   text-transform: capitalize;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 16px;
+  }
 }
 .linkBlockCol {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
+  gap: 8px;
+  @media screen and (min-width: 1280px) {
+    gap: 12px;
+  }
 }
 .contactLink {
   display: flex;
+  align-items: center;
+  // gap: 8px;
 }
 .linkBlockCol p {
   color: #173d33;
   text-align: justify;
   font-family: Fira Sans;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.96px;
+  letter-spacing: -0.8px;
+  width: 212px;
+  @media screen and (min-width: 1280px) {
+    width: 100%;
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
 }
 .linkBlockRow {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.linkBlockRow .contactLink {
+  padding: 12px;
+  @media screen and (min-width: 1280px) {
+    padding: 0;
+  }
 }
 .linkBlock_svg {
   stroke: #173d33;

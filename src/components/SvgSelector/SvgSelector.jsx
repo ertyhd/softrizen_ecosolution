@@ -487,8 +487,9 @@ export const SvgSelector = ({ color, id, styles, viewBox }) => {
       return (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="28"
+          className={styles}
+          // width="28"
+          // height="28"
           viewBox="0 0 28 28"
           fill="none"
         >
@@ -505,8 +506,9 @@ export const SvgSelector = ({ color, id, styles, viewBox }) => {
       return (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="29"
+          className={styles}
+          // width="28"
+          // height="29"
           viewBox="0 0 28 29"
           fill="none"
         >
