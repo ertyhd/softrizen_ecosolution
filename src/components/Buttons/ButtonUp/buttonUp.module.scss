@@ -12,12 +12,30 @@
   transition: background-color 0.3s ease-in-out;
 }
 .buttonUp:hover {
-  background: #173d33;
+  @media screen and (min-width: 1280px) {
+    background: #173d33;
+  }
+}
+.buttonUp:active {
+  @media screen and (max-width: 1279px) {
+    background: #173d33;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 .buttonUp_svg {
   stroke: #173d33;
   transition: stroke 0.3s ease-in-out;
 }
 .buttonUp:hover .buttonUp_svg {
-  stroke: #97d28b;
+  @media screen and (min-width: 1280px) {
+    stroke: #97d28b;
+  }
+}
+.buttonUp:active .buttonUp_svg {
+  @media screen and (max-width: 1279px) {
+    stroke: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }

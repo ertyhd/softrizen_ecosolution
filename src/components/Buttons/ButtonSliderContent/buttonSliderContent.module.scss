@@ -8,13 +8,27 @@
   transition: background-color 0.3s ease-in-out, transform 0.3s ease;
 }
 .buttonWrap:hover {
-  background: #173d33;
-  transform: rotate(45deg);
+  @media screen and (min-width: 1280px) {
+    background: #173d33;
+    transform: rotate(45deg);
+  }
+}
+.buttonWrap:active {
+  @media screen and (max-width: 1279px) {
+    background: #173d33;
+    transform: rotate(45deg);
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 .buttonWrap_svg {
   stroke: #173d33;
   transition: stroke 0.3s ease-in-out;
 }
-.buttonWrap:hover .buttonWrap_svg {
-  stroke: #97d28b;
+.buttonWrap:active .buttonWrap_svg {
+  @media screen and (max-width: 1279px) {
+    stroke: #97d28b;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }

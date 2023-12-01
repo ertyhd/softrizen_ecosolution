@@ -43,6 +43,12 @@
 .modalMenuWindow_button:hover p {
   color: #97d28b;
 }
+.modalMenuWindow_button:active {
+  @media screen and (max-width: 1279px) {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
 .modalMenuWindow_links {
   padding-top: 16px;
   margin-top: 4px;
@@ -71,6 +77,12 @@
 }
 .modalMenuWindow_link:hover p {
   color: rgba(151, 210, 139, 0.25);
+}
+.modalMenuWindow_link:active {
+  @media screen and (max-width: 1279px) {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 .modalMenuWindow_link:active p {
   color: #fff;
