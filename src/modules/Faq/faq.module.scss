@@ -8,7 +8,6 @@
     position: static;
     padding-top: 100px;
     gap: 24px;
-    // height: 812px;
   }
   @media screen and (min-width: 1280px) {
     padding-top: 120px;
@@ -21,7 +20,6 @@
 .fagSection_leftBlock {
   position: absolute;
   top: 80px;
-  // width: 596px;
   @media screen and (min-width: 768px) {
     position: static;
     top: 0;
@@ -33,7 +31,6 @@
   }
 }
 .fagSection_rightBlock {
-  // width: 596px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,5 +95,4 @@
 }
 .fagSection_rightBlock_down a {
   display: inline-flex;
-  // margin-top: 12px;
 }

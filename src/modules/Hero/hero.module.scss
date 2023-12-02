@@ -111,7 +111,6 @@
   letter-spacing: -0.64px;
 }
 .heroContactBlock_rightPart {
-  // width: 100%;
   display: flex;
   justify-content: space-between;
 
@@ -124,15 +123,10 @@
 }
 .heroContactBlock_rightPart_c {
   display: none;
-  // pointer-events: none;
   @media screen and (min-width: 768px) {
     display: block;
   }
 }
-// top:36
-// 200
-// 348
-// 524
 .heroImgBlock {
   position: relative;
   height: 200px;
