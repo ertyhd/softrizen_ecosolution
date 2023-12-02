@@ -50,13 +50,13 @@ h3 {
     font-size: 32px;
   }
 }
-h4 {
-  margin: 0;
-  font-family: Poppins-Medium;
-  font-size: 48px;
-  line-height: 1.2;
-  letter-spacing: 0;
-}
+// h4 {
+//   margin: 0;
+//   font-family: Poppins-Medium;
+//   font-size: 48px;
+//   line-height: 1.2;
+//   letter-spacing: 0;
+// }
 
 h5 {
   margin: 0;
@@ -89,26 +89,26 @@ img {
   align-items: center;
 }
 
-.BttonsWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
+// .BttonsWrapper {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+// }
 
-.container {
-  box-sizing: border-box;
-  padding: 32px 24px;
-  margin-left: auto;
-  margin-right: auto;
+// .container {
+//   box-sizing: border-box;
+//   padding: 32px 24px;
+//   margin-left: auto;
+//   margin-right: auto;
 
-  @media screen and (min-width: 768px) {
-    padding: 64px 20px;
-  }
+//   @media screen and (min-width: 768px) {
+//     padding: 64px 20px;
+//   }
 
-  @media screen and (min-width: 128px) {
-    max-width: 1280px;
-    padding: 80px;
-  }
-}
+//   @media screen and (min-width: 128px) {
+//     max-width: 1280px;
+//     padding: 80px;
+//   }
+// }

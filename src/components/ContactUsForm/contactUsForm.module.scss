@@ -5,12 +5,10 @@
   @media screen and (min-width: 768px) {
     display: flex;
     padding: 36px 24px;
-    // width: 342px;
     flex-grow: 1;
   }
   @media screen and (min-width: 1280px) {
     padding: 48px;
-    // width: 596px;
   }
 }
 .fieldForm {
@@ -134,7 +132,6 @@
   position: absolute;
   z-index: 9;
   bottom: -36px;
-  // right: 8px;
 
   color: #bdbdbd;
   font-family: Fira Sans;
