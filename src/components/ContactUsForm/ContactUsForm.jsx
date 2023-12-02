@@ -51,10 +51,14 @@ const ContactUsForm = () => {
         }) => (
           <Form className={styles.fieldForm}>
             <div
-              style={{
-                borderColor: errors.name && touched.name ? "#D28B8B" : "",
-              }}
-              className={styles.fieldForm_fieldBlock}
+              // style={{
+              //   borderColor: errors.name && touched.name ? "#D28B8B" : "",
+              // }}
+              className={
+                errors.name && touched.name
+                  ? `${styles.fieldForm_fieldBlock} ${styles.anim}`
+                  : `${styles.fieldForm_fieldBlock} `
+              }
             >
               <label htmlFor="name">* Full name:</label>
               <Field
@@ -72,10 +76,14 @@ const ContactUsForm = () => {
               )}
             </div>
             <div
-              style={{
-                borderColor: errors.email && touched.email ? "#D28B8B" : "",
-              }}
-              className={styles.fieldForm_fieldBlock}
+              // style={{
+              //   borderColor: errors.email && touched.email ? "#D28B8B" : "",
+              // }}
+              className={
+                errors.email && touched.email
+                  ? `${styles.fieldForm_fieldBlock} ${styles.anim}`
+                  : `${styles.fieldForm_fieldBlock} `
+              }
             >
               <label htmlFor="email">* E-mail:</label>
               <Field
@@ -92,10 +100,14 @@ const ContactUsForm = () => {
               )}
             </div>
             <div
-              style={{
-                borderColor: errors.phone && touched.phone ? "#D28B8B" : "",
-              }}
-              className={styles.fieldForm_fieldBlock}
+              // style={{
+              //   borderColor: errors.phone && touched.phone ? "#D28B8B" : "",
+              // }}
+              className={
+                errors.phone && touched.phone
+                  ? `${styles.fieldForm_fieldBlock} ${styles.anim}`
+                  : `${styles.fieldForm_fieldBlock} `
+              }
             >
               <label htmlFor="phone">* Phone:</label>
               <Field
