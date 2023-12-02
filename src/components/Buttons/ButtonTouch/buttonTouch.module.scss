@@ -48,6 +48,11 @@
     fill: #97d28b;
   }
 }
+.hederSectionButtonBlock_touch:hover p {
+  @media screen and (min-width: 1280px) {
+    color: #97d28b;
+  }
+}
 .hederSectionButtonBlock_touch:active .hederSectionButtonBlock_touch__svg {
   @media screen and (max-width: 1279px) {
     fill: #97d28b;
